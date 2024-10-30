@@ -1,0 +1,36 @@
+body{
+  background: #FFFFFF;
+  min-height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fff;
+}
+
+select{
+  border: solid blue 2px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius:5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+
+
+.dropdown {
+  display: inline-block; //options appear underneath
+  position: relative;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
